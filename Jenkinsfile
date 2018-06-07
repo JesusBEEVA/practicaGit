@@ -9,7 +9,7 @@ pipeline {
         ]))
     }
     stages {
-        stages ('prueba) {
+        stages ('prueba') {
             steps {
                 echo "FUNCIONA"
             }
