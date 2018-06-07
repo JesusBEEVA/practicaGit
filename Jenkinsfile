@@ -8,8 +8,8 @@ pipeline {
             numToKeepStr: '10'
         ]))
     }
-    stages {
-        stages ('prueba') {
+    stage {
+        stage ('prueba') {
             steps {
                 echo "FUNCIONA"
             }
